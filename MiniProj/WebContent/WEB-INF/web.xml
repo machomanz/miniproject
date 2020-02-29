@@ -9,4 +9,40 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
+  <servlet>
+  	<servlet-name>sellerjsp</servlet-name>
+  	<jsp-file>/WEB-INF/seller/seller.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>sellerjsp</servlet-name>
+  	<url-pattern>/seller.jsp</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>productListjsp</servlet-name>
+  	<jsp-file>/WEB-INF/product/productList.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>productListjsp</servlet-name>
+  	<url-pattern>/productList.jsp</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>productInsertjsp</servlet-name>
+  	<jsp-file>/WEB-INF/product/productInsert.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>productInsertjsp</servlet-name>
+  	<url-pattern>/productInsert.jsp</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>customerListjsp</servlet-name>
+  	<jsp-file>/WEB-INF/customer/customerList.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>customerListjsp</servlet-name>
+  	<url-pattern>/customerList.jsp</url-pattern>
+  </servlet-mapping>
 </web-app>

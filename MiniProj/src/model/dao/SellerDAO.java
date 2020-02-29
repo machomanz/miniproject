@@ -17,25 +17,8 @@ public class SellerDAO {
 	private List<SellerBean> sellerBeans;
 
 	private SellerDAO() {
-		try {
-			Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
-			conn = DriverManager.getConnection(
-					"jdbc:mysql://localhost/miniproject?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
-					"root", "1q2w3e!@#");
-
-		} catch (InstantiationException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IllegalAccessException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (ClassNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		ConnectionDAO dao = ConnectionDAO.getInstance();
+		this.conn = dao.getConn();
 	}
 
 	public static SellerDAO getInstance() {
