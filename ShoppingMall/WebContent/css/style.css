@@ -1,0 +1,131 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+	font-family: "AppleSDGothicNeo", "Apple SD Gothic Neo","Apple SD 산돌고딕 Neo",sans-serif;;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;	
+}
+
+.loginBoxWrap {
+    position: relative;
+    max-width: 420px;
+    margin: 0 auto;    
+}
+.loginBox{  
+    font-size: 50px;
+    font-weight: 600;   
+    text-align: center;
+}
+
+.id{
+    padding: 0 0px 0px 0px;
+    display: block;
+}
+.pw{
+    padding: 0 0px 0px 0px;
+    display: block;
+}
+.name{
+    padding: 0 0px 0px 0px;
+    display: block;
+}
+.addr{
+    padding: 0 0px 0px 0px;
+    display: block;
+}
+.tel{
+    padding: 0 0px 0px 0px;
+    display: block;
+}
+
+
+input[type='text'], input[type='password'], textarea {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    text-indent: 3px;
+}
+
+.int-area {
+	width: 400px;
+}
+
+.inputV3 {
+    border: 1px solid #ccc;
+    padding: 15px 10px 14px 10px;
+    height: 50px;
+    margin: 0;
+    width: 100%;
+    font-size: 14px;
+    line-height: 21px;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    color: #000;
+}
+.submit input {
+    background: #000;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    height: 60px;
+    line-height: 64px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.var {
+    width: 1px;
+    display: inline-block;
+    height: 20px;
+    vertical-align: top;
+    margin: 0 13.7px 0 15px;
+    background: #d8d8d8;
+}
+.loginMenu li {
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    margin: 4px 0 3px 0;
+}
+.loginMenu {
+    text-align: center;
+    margin: 10px 0;
+}
+ul, li {
+    list-style: none;
+}
+ul {
+    display: block;    
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+li button {
+	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	display: block;	
+	max-width: 180px;
+	text-decoration: none;	
+	padding: 20px 30px;
+}

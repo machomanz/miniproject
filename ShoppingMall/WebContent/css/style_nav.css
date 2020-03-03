@@ -1,0 +1,76 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background = #4caf50;
+}
+
+.loginBox{  
+    font-size: 50px;
+    font-weight: 600;
+    padding:  0 0px 10px 0px;
+    text-align: center;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: black; 
+}
+
+.logo{
+  color: rgb(226,226,226);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 20px;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+
+.nav-links li{
+  list-style: none;
+}
+
+.nav-links a{
+  color: rgb(226,226,226);
+  text=decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.wrap {
+/* 	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -86px;
+	margin-left: -89px; */
+	position: right;
+	background-color:white;
+}
+
+a {
+	-webkit-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-moz-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-ms-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	-o-transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	transition: all 200ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
+	display: block;	
+	max-width: 180px;
+	text-decoration: none;	
+	padding: 20px 30px;
+}
+
+a.button {
+	color: rgba(255, 255, 255, 1);
+	box-shadow: rgba(255, 255, 255, 0.4) 0 0px 0px 0px inset;
+}
+
+a.button:hover {
+	color: rgba(255, 255, 255, 1);
+	box-shadow: rgba(255, 255, 255, 0.7) 0 0px 0px 40px inset;
+}
